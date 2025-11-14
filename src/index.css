@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+:root {
+  --primary-blue: #0066cc;
+  --accent-orange: #ff8c00;
+  --soft-yellow: #fff4cc;
+  --neutral-dark: #333333;
+  --neutral-light: #f5f5f5;
+  --empowerment-green: #009966;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--neutral-dark);
+  background-color: #ffffff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.quote-text {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Accessibility improvements */
+:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Responsive image and media */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container improvements */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* Better text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
