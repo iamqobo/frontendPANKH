@@ -1,4 +1,5 @@
 import React from "react";
+import ImpactAreas from "../components/ImpactAreas";
 
 const Impact = () => {
   const impactAreas = [
@@ -51,6 +52,9 @@ const Impact = () => {
               </div>
             ))}
           </div>
+
+          {/* Our Impact Areas */}
+          <ImpactAreas />
 
           <div className="bg-[#FFF4CC] rounded-lg p-8 md:p-12">
             <h2 className="text-3xl font-bold text-[#333333] mb-6 text-center font-['Poppins']">

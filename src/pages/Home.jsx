@@ -9,6 +9,8 @@ import DisabilityInclusionHighlight from "../components/DisabilityInclusionHighl
 import UdaanToSpacePreview from "../components/UdaanToSpacePreview";
 import Testimonials from "../components/Testimonials";
 import DonationCTA from "../components/DonationCTA";
+import UNSDGAligned from "../components/UNSDGAligned";
+import ImpactAreas from "../components/ImpactAreas";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <PodcastFeature />
       <DisabilityInclusionHighlight />
       <UdaanToSpacePreview />
+      <UNSDGAligned />
+      <ImpactAreas />
       <Testimonials />
       <DonationCTA />
     </div>

@@ -30,7 +30,7 @@ const MissionVision = () => {
             Our Mission & Vision
           </h2>
           <p className="text-[#666] text-lg max-w-3xl mx-auto">
-            Pankhon Ki Udaan Foundation is committed to empowering dreams and
+            Pankh Ki Udaan Foundation is committed to empowering dreams and
             enabling inclusion through three core pillars:
           </p>
         </div>

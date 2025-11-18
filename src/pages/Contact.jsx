@@ -51,7 +51,7 @@ const Contact = () => {
                       Address
                     </h3>
                     <p className="text-[#666]">
-                      Pankhon Ki Udaan Foundation
+                      Pankh Ki Udaan Foundation
                       <br />
                       India
                     </p>
