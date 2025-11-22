@@ -10,7 +10,7 @@ const UdaanToSpacePreview = () => {
             <div>
               <div className="text-5xl mb-4">🚀</div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4 font-['Poppins']">
-                Udaan to Space
+                Udan to Space
               </h2>
               <p className="text-lg mb-6 opacity-95">
                 Inspiring the next generation of scientists, engineers, and
@@ -26,7 +26,7 @@ const UdaanToSpacePreview = () => {
                 to="/programs/udaan-to-space"
                 className="inline-block bg-[#FF8C00] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#e67d00] transition-colors"
               >
-                Explore Udaan to Space →
+                Explore Udan to Space →
               </Link>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">

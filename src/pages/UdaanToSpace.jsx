@@ -7,7 +7,7 @@ const UdaanToSpace = () => {
       <section className="bg-gradient-to-r from-[#0066CC] to-[#0052a3] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-['Poppins']">
-            Udaan to Space
+            Udan to Space
           </h1>
           <p className="text-xl max-w-3xl opacity-95">
             Inspiring the next generation of scientists, engineers, and
@@ -22,10 +22,10 @@ const UdaanToSpace = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             <div>
               <h2 className="text-3xl font-bold text-[#333333] mb-6 font-['Poppins']">
-                About Udaan to Space
+                About Udan to Space
               </h2>
               <p className="text-[#666] mb-4 text-lg">
-                Udaan to Space is our innovative program that brings the wonders
+                Udan to Space is our innovative program that brings the wonders
                 of space science and exploration to students everywhere. We
                 believe that inspiring curiosity about the universe can ignite
                 passion for STEM fields and open doors to incredible

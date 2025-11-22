@@ -8,7 +8,7 @@ const PodcastFeature = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 font-['Poppins']">
-              Udaan Podcast
+              Udan Podcast
             </h2>
             <p className="text-lg mb-6 opacity-95">
               Voices of Change – Stories of Empowerment, Inclusion, and

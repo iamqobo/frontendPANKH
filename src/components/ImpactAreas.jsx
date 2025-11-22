@@ -15,7 +15,7 @@ const AREAS = [
   "AR/VR Learning for Schools",
   "Mental Health",
   "De-addiction Programs",
-  "Udaan to Space",
+  "Udan to Space",
   "STEM Education Initiative",
 ];
 

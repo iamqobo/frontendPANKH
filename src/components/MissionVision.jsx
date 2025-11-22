@@ -66,7 +66,7 @@ const MissionVision = () => {
             </h3>
             <p className="text-lg text-[#666]">
               To create platforms and programs that empower, educate, and
-              include. Through Udaan Talk, Udaan Podcast, Udaan to Space, Women
+              include. Through Udan Talk, Udan Podcast, Udan to Space, Women
               Empowerment, and Disability Inclusion initiatives, we work
               tirelessly to break barriers and light lives beyond limits.
             </p>

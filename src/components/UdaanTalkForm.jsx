@@ -80,7 +80,7 @@ const UdaanTalkForm = () => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-8">
       <h2 className="text-2xl font-bold text-[#333333] mb-2 font-['Poppins']">
-        Register for Udaan Talk
+        Register for Udan Talk
       </h2>
       <p className="text-[#666] mb-6">
         Join us for "Talk Like TED" event as a Speaker or Audience member.
@@ -460,7 +460,7 @@ const UdaanTalkForm = () => {
             type="submit"
             className="w-full bg-[#0066CC] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#0052a3] transition-colors"
           >
-            Register for Udaan Talk
+            Register for Udan Talk
           </button>
         </form>
       )}

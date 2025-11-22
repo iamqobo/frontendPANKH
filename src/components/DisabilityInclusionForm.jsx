@@ -63,7 +63,7 @@ const DisabilityInclusionForm = () => {
       </h2>
       <p className="text-[#666] mb-6">
         If you or someone you know is differently-abled and seeking help, fill
-        out the form below. Our Udaan Inclusion Team will reach out to you.
+        out the form below. Our Udan Inclusion Team will reach out to you.
       </p>
       {submitted ? (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
@@ -193,7 +193,7 @@ const DisabilityInclusionForm = () => {
             type="submit"
             className="w-full bg-[#009966] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#007a4d] transition-colors"
           >
-            Reach Out to Udaan
+            Reach Out to Udan
           </button>
         </form>
       )}

@@ -44,7 +44,7 @@ const Events = () => {
               to="/programs/udaan-talk"
               className="inline-block bg-[#0066CC] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#0052a3] transition-colors mb-4"
             >
-              Register for Udaan Talk →
+              Register for Udan Talk →
             </Link>
           </div>
 

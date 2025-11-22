@@ -8,7 +8,7 @@ const UdaanPodcast = () => {
       <section className="bg-gradient-to-r from-[#FF8C00] to-[#e67d00] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-['Poppins']">
-            Voices of Change – The Udaan Podcast
+            Voices of Change – The Udan Podcast
           </h1>
           <p className="text-xl max-w-3xl opacity-95">
             Stories of empowerment, inclusion, and transformation. Listen to

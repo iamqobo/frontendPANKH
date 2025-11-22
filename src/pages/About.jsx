@@ -216,7 +216,7 @@ const About = () => {
               to="/programs/udaan-talk"
               className="inline-flex items-center justify-center rounded-full bg-[#FF9F1C] hover:bg-[#ff8c00] text-white font-semibold px-8 md:px-10 py-3 md:py-3.5 shadow-lg transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#0B63CE] focus:ring-[#FF9F1C]"
             >
-              Request Udaan Talk Session
+              Request Udan Talk Session
             </Link>
           </div>
         </div>

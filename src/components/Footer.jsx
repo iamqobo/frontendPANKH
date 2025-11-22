@@ -147,7 +147,7 @@ const Footer = () => {
                   to="/programs/udaan-talk"
                   className="text-gray-400 hover:text-[#FF8C00] transition-colors"
                 >
-                  Udaan Talk
+                  Udan Talk
                 </Link>
               </li>
               <li>
@@ -155,7 +155,7 @@ const Footer = () => {
                   to="/programs/udaan-podcast"
                   className="text-gray-400 hover:text-[#FF8C00] transition-colors"
                 >
-                  Udaan Podcast
+                  Udan Podcast
                 </Link>
               </li>
               <li>
@@ -163,7 +163,7 @@ const Footer = () => {
                   to="/programs/udaan-to-space"
                   className="text-gray-400 hover:text-[#FF8C00] transition-colors"
                 >
-                  Udaan to Space
+                  Udan to Space
                 </Link>
               </li>
               <li>

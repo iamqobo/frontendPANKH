@@ -7,10 +7,10 @@ const ImpactStories = () => {
       id: 1,
       title: "Empowering Through Education",
       description:
-        "Through our Udaan Talk program, we've empowered thousands of students to share their ideas and dreams, creating a platform for young voices.",
+        "Through our Udan Talk program, we've empowered thousands of students to share their ideas and dreams, creating a platform for young voices.",
       image:
         "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&q=80",
-      category: "Udaan Talk",
+      category: "Udan Talk",
       link: "/programs/udaan-talk",
     },
     {
@@ -27,10 +27,10 @@ const ImpactStories = () => {
       id: 3,
       title: "Voices of Change",
       description:
-        "The Udaan Podcast has amplified stories of empowerment, reaching millions of listeners and inspiring change across communities.",
+        "The Udan Podcast has amplified stories of empowerment, reaching millions of listeners and inspiring change across communities.",
       image:
         "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400&q=80",
-      category: "Udaan Podcast",
+      category: "Udan Podcast",
       link: "/programs/udaan-podcast",
     },
   ];

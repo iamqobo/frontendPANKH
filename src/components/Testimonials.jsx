@@ -5,11 +5,11 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Priya Sharma",
-      role: "Udaan Talk Speaker",
+      role: "Udan Talk Speaker",
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
       quote:
-        "Udaan Talk gave me the platform to share my story. It transformed my confidence and opened doors I never imagined.",
+        "Udan Talk gave me the platform to share my story. It transformed my confidence and opened doors I never imagined.",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ const Testimonials = () => {
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
       quote:
-        "The Udaan Podcast inspires me every week. These stories of empowerment and inclusion give me hope for a better world.",
+        "The Udan Podcast inspires me every week. These stories of empowerment and inclusion give me hope for a better world.",
     },
   ];
 

@@ -149,19 +149,19 @@ const Header = () => {
                     to="/programs/udaan-talk"
                     className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
                   >
-                    Udaan Talk
+                    Udan Talk
                   </Link>
                   <Link
                     to="/programs/udaan-podcast"
                     className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
                   >
-                    Udaan Podcast
+                    Udan Podcast
                   </Link>
                   <Link
                     to="/programs/udaan-to-space"
                     className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
                   >
-                    Udaan to Space
+                    Udan to Space
                   </Link>
                   <Link
                     to="/programs/women-empowerment"
@@ -341,21 +341,21 @@ const Header = () => {
                       className="block py-2 text-sm text-[#666] hover:text-[#0066CC]"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      Udaan Talk
+                      Udan Talk
                     </Link>
                     <Link
                       to="/programs/udaan-podcast"
                       className="block py-2 text-sm text-[#666] hover:text-[#0066CC]"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      Udaan Podcast
+                      Udan Podcast
                     </Link>
                     <Link
                       to="/programs/udaan-to-space"
                       className="block py-2 text-sm text-[#666] hover:text-[#0066CC]"
                       onClick={() => setIsMenuOpen(false)}
                     >
-                      Udaan to Space
+                      Udan to Space
                     </Link>
                     <Link
                       to="/programs/women-empowerment"

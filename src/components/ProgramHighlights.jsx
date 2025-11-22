@@ -5,7 +5,7 @@ const ProgramHighlights = () => {
   const programs = [
     {
       id: 1,
-      title: "Udaan Talk",
+      title: "Udan Talk",
       description:
         "A platform for young minds to share ideas, inspire change, and speak like TED. Empowering voices, one talk at a time.",
       icon: "🎤",
@@ -14,7 +14,7 @@ const ProgramHighlights = () => {
     },
     {
       id: 2,
-      title: "Udaan Podcast",
+      title: "Udan Podcast",
       description:
         "Voices of change, stories of empowerment. Listen to inspiring conversations about inclusion, rights, and transformation.",
       icon: "🎧",
@@ -23,7 +23,7 @@ const ProgramHighlights = () => {
     },
     {
       id: 3,
-      title: "Udaan to Space",
+      title: "Udan to Space",
       description:
         "Reaching for the stars! Inspiring the next generation of scientists and explorers through space education and innovation.",
       icon: "🚀",
