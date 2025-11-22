@@ -261,7 +261,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © {new Date().getFullYear()} Pankho Ki Udan Foundation. All
-              rights reserved.
+              rights reserved.<br />
+              Made with ❤️ by QOBO
             </div>
             <div className="flex space-x-6 text-sm">
               <a
