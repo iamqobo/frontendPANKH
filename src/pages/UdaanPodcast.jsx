@@ -142,6 +142,49 @@ const UdaanPodcast = () => {
           </div>
         </div>
       </section>
+
+      {/* Subscribe Banner */}
+      <section className="bg-[#2563EB] py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-2 font-['Poppins']">
+              SUBSCRIBE TO UDAAN
+            </h2>
+            <h3 className="text-3xl md:text-4xl font-bold text-[#FF8C00] mb-4 font-['Poppins']">
+              PODCAST
+            </h3>
+            <p className="text-white text-lg md:text-xl mb-8 opacity-95">
+              Get notified when new episodes are released
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a
+                href="https://open.spotify.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FF8C00] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#e67d00] transition-colors text-center min-w-[150px]"
+              >
+                Spotify
+              </a>
+              <a
+                href="https://podcasts.apple.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#2563EB] border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1d4ed8] transition-colors text-center min-w-[150px]"
+              >
+                Apple Podcasts
+              </a>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FF8C00] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#e67d00] transition-colors text-center min-w-[150px]"
+              >
+                YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

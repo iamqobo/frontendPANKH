@@ -13,6 +13,7 @@ import UNSDGAligned from "../components/UNSDGAligned";
 import ImpactAreas from "../components/ImpactAreas";
 import CSRPartnerships from "../components/CSRPartnerships";
 import OurImpactGoals from "../components/OurImpactGoals";
+import OurPrograms from "../components/OurPrograms";
 
 const Home = () => {
   return (
@@ -20,7 +21,8 @@ const Home = () => {
       <Hero />
       <Statistics />
       <MissionVision />
-      <ProgramHighlights />
+      <OurPrograms />
+      {/* <ProgramHighlights /> */}
       <ImpactStories />
       {/* <PodcastFeature /> */}
       {/* <DisabilityInclusionHighlight /> */}

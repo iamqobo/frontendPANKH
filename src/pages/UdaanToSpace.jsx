@@ -101,6 +101,90 @@ const UdaanToSpace = () => {
           </div>
         </div>
       </section>
+
+      {/* Our Activities Section */}
+      <section className="py-16 bg-[#F5F5F5]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold font-['Poppins']">
+              <span className="text-[#374151]">OUR</span>{" "}
+              <span className="bg-gradient-to-r from-[#2563EB] to-[#F59E0B] bg-clip-text text-transparent">
+                ACTIVITIES
+              </span>
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Digital Planetarium */}
+            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-sm p-6 hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-[#2563EB] to-[#F59E0B] flex items-center justify-center">
+                  <span className="text-white text-2xl">⭐</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-[#111827] mb-2 font-['Poppins']">
+                    DIGITAL PLANETARIUM
+                  </h3>
+                  <p className="text-[#6B7280] text-sm leading-relaxed">
+                    360° immersive space experiences using AR/VR technology
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Rocket Demonstrations */}
+            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-sm p-6 hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-[#2563EB] to-[#F59E0B] flex items-center justify-center">
+                  <span className="text-white text-2xl">🚀</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-[#111827] mb-2 font-['Poppins']">
+                    ROCKET DEMONSTRATIONS
+                  </h3>
+                  <p className="text-[#6B7280] text-sm leading-relaxed">
+                    Hands-on STEM learning through rocket science
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* School Workshops */}
+            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-sm p-6 hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-[#2563EB] to-[#F59E0B] flex items-center justify-center">
+                  <span className="text-white text-2xl">📖</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-[#111827] mb-2 font-['Poppins']">
+                    SCHOOL WORKSHOPS
+                  </h3>
+                  <p className="text-[#6B7280] text-sm leading-relaxed">
+                    Interactive space science sessions aligned with ISRO guidelines
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Astronomy Camps */}
+            <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-sm p-6 hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-[#2563EB] to-[#F59E0B] flex items-center justify-center">
+                  <span className="text-white text-2xl">🌍</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-[#111827] mb-2 font-['Poppins']">
+                    ASTRONOMY CAMPS
+                  </h3>
+                  <p className="text-[#6B7280] text-sm leading-relaxed">
+                    Summer camps for young space enthusiasts
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

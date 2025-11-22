@@ -33,18 +33,21 @@ const ImpactAreas = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {AREAS.map((area) => (
             <div
               key={area}
-              className="flex items-center gap-3 rounded-2xl bg-white shadow-sm border border-[#E5E7EB] px-4 py-3 hover:shadow-md hover:-translate-y-0.5 transition"
+              className="group relative flex flex-col items-center justify-center rounded-xl bg-white shadow-md border-2 border-[#E5E7EB] px-5 py-6 hover:shadow-xl hover:-translate-y-1 hover:border-[#2563EB] transition-all duration-300 min-h-[120px]"
             >
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-[#2563EB] to-[#F59E0B] text-white text-sm font-semibold">
-                <span>✓</span>
+              <div className="flex flex-col items-center gap-3 text-center">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-[#2563EB] to-[#F59E0B] text-white text-lg font-semibold shadow-md group-hover:scale-110 transition-transform duration-300">
+                  <span>✓</span>
+                </div>
+                <p className="text-sm md:text-base font-semibold text-[#111827] leading-tight">
+                  {area}
+                </p>
               </div>
-              <p className="text-sm md:text-base font-medium text-[#111827]">
-                {area}
-              </p>
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#2563EB]/5 to-[#F59E0B]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
           ))}
         </div>
