@@ -12,6 +12,7 @@ import DonationCTA from "../components/DonationCTA";
 import UNSDGAligned from "../components/UNSDGAligned";
 import ImpactAreas from "../components/ImpactAreas";
 import CSRPartnerships from "../components/CSRPartnerships";
+import OurImpactGoals from "../components/OurImpactGoals";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       {/* <UdaanToSpacePreview /> */}
       <UNSDGAligned />
       <ImpactAreas />
+      <OurImpactGoals />
       <CSRPartnerships />
       <Testimonials />
       <DonationCTA />
