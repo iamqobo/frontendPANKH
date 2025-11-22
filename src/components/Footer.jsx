@@ -15,7 +15,7 @@ const Footer = () => {
                 className="text-white text-xl font-bold"
                 style={{ fontFamily: "Poppins, sans-serif" }}
               >
-                Pankh Ki Udaan
+                Pankh Ki Udan
               </span>
             </div>
             <p className="text-gray-400 mb-4">
@@ -211,7 +211,7 @@ const Footer = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <span>Pankh Ki Udaan Foundation</span>
+                <span>Pankh Ki Udan Foundation</span>
               </li>
               <li className="flex items-center">
                 <svg
@@ -260,7 +260,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Pankh Ki Udaan Foundation. All
+              © {new Date().getFullYear()} Pankh Ki Udan Foundation. All
               rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">

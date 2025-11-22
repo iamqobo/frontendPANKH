@@ -79,7 +79,7 @@ const Header = () => {
                   className="text-[#333333] text-base sm:text-lg md:text-xl font-bold tracking-tight"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Pankh Ki Udaan
+                  Pankh Ki Udan
                 </span>
                 
               </div>

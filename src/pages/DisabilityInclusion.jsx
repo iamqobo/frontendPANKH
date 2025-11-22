@@ -136,7 +136,7 @@ const DisabilityInclusion = () => {
             </h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-[#666] mb-4 text-lg">
-                At Pankh Ki Udaan, we are committed to ensuring that our
+                At Pankh Ki Udan, we are committed to ensuring that our
                 programs, events, and digital platforms are accessible to
                 everyone. We continuously work to:
               </p>

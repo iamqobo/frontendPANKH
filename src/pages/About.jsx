@@ -62,7 +62,7 @@ const About = () => {
           </div>
 
           <p className="mt-6 text-base md:text-lg leading-relaxed text-[#E0F2FF]">
-            Pankh Ki Udaan Foundation was born from a simple yet powerful
+            Pankh Ki Udan Foundation was born from a simple yet powerful
             belief: every individual deserves the opportunity to dream, grow,
             and create positive change. Since 2015, we've been working
             tirelessly to empower marginalized communities through education,
@@ -137,7 +137,7 @@ const About = () => {
               Who We Are
             </h2>
             <p className="text-[#666] mb-6 text-lg">
-              Pankh Ki Udaan Foundation is a non-profit organization
+              Pankh Ki Udan Foundation is a non-profit organization
               dedicated to empowering individuals and communities through
               education, inclusion, and opportunity. We believe that every
               person, regardless of their background or abilities, deserves the
@@ -148,7 +148,7 @@ const About = () => {
               Our Story
             </h2>
             <p className="text-[#666] mb-6 text-lg">
-              Founded with a vision to create lasting change, Pankh Ki Udaan
+              Founded with a vision to create lasting change, Pankh Ki Udan
               has grown from a small initiative to a movement that touches
               thousands of lives. Our journey began with a simple belief: that
               inclusion and empowerment are not just ideals, but actionable
