@@ -18,7 +18,7 @@ const Testimonials = () => {
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
       quote:
-        "Through Pankh Ki Udan, I found employment and purpose. The Love Candle project changed my life completely.",
+        "Through Pankho Ki Udan, I found employment and purpose. The Love Candle project changed my life completely.",
     },
     {
       id: 3,

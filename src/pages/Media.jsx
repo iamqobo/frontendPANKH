@@ -42,7 +42,7 @@ const Media = () => {
             Media & Press
           </h1>
           <p className="text-xl max-w-3xl opacity-95">
-            News, updates, and stories from Pankh Ki Udan Foundation.
+            News, updates, and stories from Pankho Ki Udan Foundation.
           </p>
         </div>
       </section>
