@@ -11,6 +11,7 @@ import Testimonials from "../components/Testimonials";
 import DonationCTA from "../components/DonationCTA";
 import UNSDGAligned from "../components/UNSDGAligned";
 import ImpactAreas from "../components/ImpactAreas";
+import CSRPartnerships from "../components/CSRPartnerships";
 
 const Home = () => {
   return (
@@ -20,11 +21,12 @@ const Home = () => {
       <MissionVision />
       <ProgramHighlights />
       <ImpactStories />
-      <PodcastFeature />
-      <DisabilityInclusionHighlight />
-      <UdaanToSpacePreview />
+      {/* <PodcastFeature /> */}
+      {/* <DisabilityInclusionHighlight /> */}
+      {/* <UdaanToSpacePreview /> */}
       <UNSDGAligned />
       <ImpactAreas />
+      <CSRPartnerships />
       <Testimonials />
       <DonationCTA />
     </div>
