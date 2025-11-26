@@ -43,7 +43,7 @@ const Team = () => {
             TEDx–Style Real Hero Sessions
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-wide font-['Poppins'] text-[#FF9F1C]">
-            UDAAN TALK
+            UDAN TALK
           </h1>
           <p className="mt-6 text-lg md:text-2xl text-[#E0F2FF] leading-relaxed">
             Inspiring the nation with stories of resilience, courage, and
