@@ -204,7 +204,7 @@ const About = () => {
       <section className="bg-gradient-to-b from-[#0B63CE] to-[#0047A3] text-white py-16 md:py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide font-['Poppins']">
-            INVITE UDAAN TALK TO YOUR{" "}
+            INVITE UDAN TALK TO YOUR{" "}
             <span className="text-[#FF9F1C]">ORGANIZATION</span>
           </h2>
           <p className="mt-6 text-base md:text-lg text-[#E0F2FF] max-w-3xl mx-auto">
