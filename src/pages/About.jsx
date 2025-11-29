@@ -64,7 +64,7 @@ const About = () => {
           <p className="mt-6 text-base md:text-lg leading-relaxed text-[#E0F2FF]">
             Pankho Ki Udan Foundation was born from a simple yet powerful
             belief: every individual deserves the opportunity to dream, grow,
-            and create positive change. Since 2015, we've been working
+            and create positive change. Since 2021, we've been working
             tirelessly to empower marginalized communities through education,
             protection, and sustainable development initiatives aligned with UN
             SDGs.
