@@ -73,6 +73,26 @@ const UdaanTalk = () => {
           </div>
         </div>
       </section>
+            <section className="bg-gradient-to-b from-[#0B63CE] to-[#0047A3] text-white py-16 md:py-20 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-wide font-['Poppins']">
+            INVITE UDAN TALK TO YOUR{" "}
+            <span className="text-[#FF9F1C]">ORGANIZATION</span>
+          </h2>
+          <p className="mt-6 text-base md:text-lg text-[#E0F2FF] max-w-3xl mx-auto">
+            Bring inspiring stories of real heroes to your school, college, or
+            corporate event.
+          </p>
+          <div className="mt-10">
+            <Link
+              to="/programs/udaan-talk"
+              className="inline-flex items-center justify-center rounded-full bg-[#FF9F1C] hover:bg-[#ff8c00] text-white font-semibold px-8 md:px-10 py-3 md:py-3.5 shadow-lg transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[#0B63CE] focus:ring-[#FF9F1C]"
+            >
+              Request Udan Talk Session
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
