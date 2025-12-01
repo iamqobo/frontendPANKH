@@ -6,10 +6,10 @@ const Shop = () => {
       <section className="bg-gradient-to-r from-[#009966] to-[#007a4d] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-['Poppins']">
-            Shop Love Candle
+            Shop
           </h1>
           <p className="text-xl max-w-3xl opacity-95">
-            Beautiful, handcrafted candles made with love by differently-abled
+            Beautiful things made with love by differently-abled
             individuals. Every purchase supports empowerment and inclusion.
           </p>
         </div>
