@@ -75,7 +75,7 @@ const Header = () => {
             className="flex items-center hover:opacity-80 transition-opacity shrink-0"
           >
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <FlowerLogo />
+              <Logo />
               <div className="flex flex-col leading-tight">
                 <span
                   className="text-[#333333] text-base sm:text-lg md:text-xl font-bold tracking-tight"
