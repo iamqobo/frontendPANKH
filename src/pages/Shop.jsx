@@ -20,7 +20,7 @@ const products = [
     name: "Handmade Jute Bag",
     price: 399,
     desc: "Eco-friendly jute bag crafted by skilled artisans.",
-    img: "https://images.unsplash.com/photo-1590874137136-62f325f52f43?auto=format&fit=crop&w=800"
+    img: "https://m.media-amazon.com/images/I/81P2tMBIcvL._AC_UY1100_.jpg"
   }
 ];
 
