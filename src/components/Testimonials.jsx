@@ -7,7 +7,7 @@ const Testimonials = () => {
       name: "Priya Sharma",
       role: "Udan Talk Speaker",
       image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+        "https://st2.depositphotos.com/1011643/9000/i/450/depositphotos_90003844-stock-photo-indian-woman-at-home.jpg",
       quote:
         "Udan Talk gave me the platform to share my story. It transformed my confidence and opened doors I never imagined.",
     },
