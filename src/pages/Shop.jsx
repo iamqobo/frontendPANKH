@@ -6,7 +6,7 @@ const products = [
     name: "Love Candle",
     price: 299,
     desc: "Handcrafted scented candle made with care.",
-    img: "https://images.unsplash.com/photo-1600348759135-6c967bef09d7?auto=format&fit=crop&w=800"
+    img: "https://i2.pickpik.com/photos/131/147/647/heart-candle-flame-love-preview.jpg&fit=crop&w=800"
   },
   {
     id: 2,
