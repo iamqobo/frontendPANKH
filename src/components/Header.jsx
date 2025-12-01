@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "/logo.svg"
+
 
 const Header = () => {
   const location = useLocation();
@@ -74,7 +74,7 @@ const Header = () => {
             className="flex items-center hover:opacity-80 transition-opacity shrink-0"
           >
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <Logo />
+              <FlowerLogo />
               <div className="flex flex-col leading-tight">
                 <span
                   className="text-[#333333] text-base sm:text-lg md:text-xl font-bold tracking-tight"
