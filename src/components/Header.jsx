@@ -111,73 +111,75 @@ const Header = () => {
             </Link>
 
             {/* Programs Dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={() => setIsProgramsOpen(true)}
-              onMouseLeave={() => setIsProgramsOpen(false)}
-            >
-              <button
-                className={`px-3 py-2 rounded-lg text-xs lg:text-sm font-medium transition-all duration-200 flex items-center space-x-1 whitespace-nowrap ${
-                  location.pathname.startsWith("/programs") ||
-                  location.pathname.startsWith("/udaan-talk") ||
-                  location.pathname.startsWith("/udaan-podcast") ||
-                  location.pathname.startsWith("/udaan-to-space") ||
-                  location.pathname.startsWith("/women-empowerment") ||
-                  location.pathname.startsWith("/disability-inclusion")
-                    ? "text-[#0066CC] bg-[#F5F5F5] font-semibold"
-                    : "text-[#333333] hover:text-[#0066CC] hover:bg-[#F5F5F5]"
-                }`}
-              >
-                <span>Programs</span>
-                <svg
-                  className="w-3 h-3 lg:w-4 lg:h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-              {isProgramsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50">
-                  <Link
-                    to="/programs/udaan-talk"
-                    className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-                  >
-                    Udan Talk
-                  </Link>
-                  <Link
-                    to="/programs/udaan-podcast"
-                    className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-                  >
-                    Udan Podcast
-                  </Link>
-                  <Link
-                    to="/programs/udaan-to-space"
-                    className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-                  >
-                    Udan to Space
-                  </Link>
-                  <Link
-                    to="/programs/women-empowerment"
-                    className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-                  >
-                    Women Empowerment
-                  </Link>
-                  <Link
-                    to="/programs/disability-inclusion"
-                    className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#009966] transition-colors duration-200"
-                  >
-                    Disability Inclusion
-                  </Link>
-                </div>
-              )}
-            </div>
+           <div
+  className="relative"
+  onMouseEnter={() => setIsProgramsOpen(true)}
+  onMouseLeave={() => setIsProgramsOpen(false)}
+>
+  <button
+    className={`px-3 py-2 rounded-lg text-xs lg:text-sm font-medium transition-all duration-200 flex items-center space-x-1 whitespace-nowrap ${
+      location.pathname.startsWith("/programs") ||
+      location.pathname.startsWith("/udaan-talk") ||
+      location.pathname.startsWith("/udaan-podcast") ||
+      location.pathname.startsWith("/udaan-to-space") ||
+      location.pathname.startsWith("/women-empowerment") ||
+      location.pathname.startsWith("/disability-inclusion")
+        ? "text-[#0066CC] bg-[#F5F5F5] font-semibold"
+        : "text-[#333333] hover:text-[#0066CC] hover:bg-[#F5F5F5]"
+    }`}
+  >
+    <span>Programs</span>
+    <svg
+      className="w-3 h-3 lg:w-4 lg:h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M19 9l-7 7-7-7"
+      />
+    </svg>
+  </button>
+
+  {/* Dropdown */}
+  {isProgramsOpen && (
+    <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50">
+      <Link
+        to="/programs/udaan-talk"
+        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
+      >
+        Udan Talk
+      </Link>
+      <Link
+        to="/programs/udaan-podcast"
+        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
+      >
+        Udan Podcast
+      </Link>
+      <Link
+        to="/programs/udaan-to-space"
+        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
+      >
+        Udan to Space
+      </Link>
+      <Link
+        to="/programs/women-empowerment"
+        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
+      >
+        Women Empowerment
+      </Link>
+      <Link
+        to="/programs/disability-inclusion"
+        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#009966] transition-colors duration-200"
+      >
+        Disability Inclusion
+      </Link>
+    </div>
+  )}
+</div>
 
             <Link
               to="/impact"
