@@ -21,44 +21,13 @@ const products = [
     price: 399,
     desc: "Eco-friendly jute bag crafted by skilled artisans.",
     img: "https://images.unsplash.com/photo-1590874137136-62f325f52f43?auto=format&fit=crop&w=800"
-  },
-  {
-    id: 4,
-    name: "Organic Herbal Soap",
-    price: 199,
-    desc: "Chemical-free herbal bath soap made organically.",
-    img: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=800"
-  },
-  {
-    id: 5,
-    name: "Fabric Painted T-Shirt",
-    price: 499,
-    desc: "Unique artwork hand-painted on cotton t-shirts.",
-    img: "https://images.unsplash.com/photo-1592878893446-3f3c5f5236e9?auto=format&fit=crop&w=800"
-  },
-  {
-    id: 6,
-    name: "Decorative Wall Art",
-    price: 799,
-    desc: "Beautiful canvas artwork created with passion.",
-    img: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=800"
-  },
+  }
 ];
 
 const Shop = () => {
   return (
     <div className="min-h-screen bg-white">
-      <section className="bg-gradient-to-r from-[#009966] to-[#007a4d] text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 font-['Poppins']">
-            Shop
-          </h1>
-          <p className="text-xl max-w-3xl opacity-95">
-            Beautiful items lovingly crafted by differently-abled individuals.
-            Every product supports empowerment and inclusion.
-          </p>
-        </div>
-      </section>
+      
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
