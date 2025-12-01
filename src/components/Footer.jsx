@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4 mt-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61577303616233"
                 className="text-gray-400 hover:text-[#FF8C00] transition-colors"
                 aria-label="Facebook"
               >
@@ -51,7 +51,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/pankhokiudaan?utm_source=qr&igsh=dG5vYnp1aDloNXcz"
                 className="text-gray-400 hover:text-[#FF8C00] transition-colors"
                 aria-label="Instagram"
               >
@@ -64,7 +64,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://youtube.com/@pankhokiudanindia?si=1MGPK99t1HdnnoVq"
                 className="text-gray-400 hover:text-[#FF8C00] transition-colors"
                 aria-label="YouTube"
               >
