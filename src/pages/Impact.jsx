@@ -1,5 +1,6 @@
 import React from "react";
 import ImpactAreas from "../components/ImpactAreas";
+import OurImpactGoals from "../components/OurImpactGoals";
 
 const Impact = () => {
   const impactAreas = [
@@ -68,6 +69,7 @@ const Impact = () => {
           </div>
         </div>
       </section>
+      <OurImpactGoals/>
     </div>
   );
 };
