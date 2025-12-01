@@ -117,6 +117,7 @@ const Header = () => {
   onMouseLeave={() => setIsProgramsOpen(false)}
 >
   <button
+    onClick={() => setIsProgramsOpen(!isProgramsOpen)} // optional click toggle
     className={`px-3 py-2 rounded-lg text-xs lg:text-sm font-medium transition-all duration-200 flex items-center space-x-1 whitespace-nowrap ${
       location.pathname.startsWith("/programs") ||
       location.pathname.startsWith("/udaan-talk") ||
@@ -128,7 +129,7 @@ const Header = () => {
         : "text-[#333333] hover:text-[#0066CC] hover:bg-[#F5F5F5]"
     }`}
   >
-    <span>Programs</span>
+    Programs
     <svg
       className="w-3 h-3 lg:w-4 lg:h-4"
       fill="none"
@@ -147,36 +148,21 @@ const Header = () => {
   {/* Dropdown */}
   {isProgramsOpen && (
     <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50">
-      <Link
-        to="/programs/udaan-talk"
-        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-      >
-        Udan Talk
-      </Link>
-      <Link
-        to="/programs/udaan-podcast"
-        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-      >
-        Udan Podcast
-      </Link>
-      <Link
-        to="/programs/udaan-to-space"
-        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-      >
-        Udan to Space
-      </Link>
-      <Link
-        to="/programs/women-empowerment"
-        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#0066CC] transition-colors duration-200"
-      >
-        Women Empowerment
-      </Link>
-      <Link
-        to="/programs/disability-inclusion"
-        className="block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-[#009966] transition-colors duration-200"
-      >
-        Disability Inclusion
-      </Link>
+      {[
+        { name: "Udan Talk", link: "/programs/udaan-talk" },
+        { name: "Udan Podcast", link: "/programs/udaan-podcast" },
+        { name: "Udan to Space", link: "/programs/udaan-to-space" },
+        { name: "Women Empowerment", link: "/programs/women-empowerment" },
+        { name: "Disability Inclusion", link: "/programs/disability-inclusion", color: "#009966" },
+      ].map((item) => (
+        <Link
+          key={item.link}
+          to={item.link}
+          className={`block px-4 py-2.5 text-sm text-[#333333] hover:bg-[#F5F5F5] hover:text-${item.color || "#0066CC"} transition-colors duration-200`}
+        >
+          {item.name}
+        </Link>
+      ))}
     </div>
   )}
 </div>
