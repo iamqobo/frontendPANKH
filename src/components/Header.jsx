@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "logo.svg"
+import Logo from "'./assets/logo.svg'"
 
 
 const Header = () => {
