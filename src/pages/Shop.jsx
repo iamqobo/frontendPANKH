@@ -13,7 +13,7 @@ const products = [
     name: "Decorated Diyas",
     price: 149,
     desc: "Beautifully hand-painted diyas for all occasions.",
-    img: "https://images.unsplash.com/photo-1603373325673-7f1c9dc62574?auto=format&fit=crop&w=800"
+    img: "https://m.media-amazon.com/images/I/81LClw6adAL.jpg"
   },
   {
     id: 3,
