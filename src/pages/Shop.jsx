@@ -28,7 +28,7 @@ const Shop = () => {
   return (
     <div className="min-h-screen bg-white">
       
- <section className="bg-gradient-to-r from-[#009966] to-[#007a4d] text-white py-20">
+      <section className="bg-gradient-to-r from-[#009966] to-[#007a4d] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-['Poppins']">
             Shop
@@ -39,20 +39,22 @@ const Shop = () => {
           </p>
         </div>
       </section>
+
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.map((item) => (
               <div
                 key={item.id}
                 className="bg-[#F5F5F5] rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
               >
-                <img
-                  src={item.img}
-                  alt={item.name}
-                  className="h-64 w-full object-cover"
-                />
+                <div className="h-64 w-full overflow-hidden">
+                  <img
+                    src={item.img}
+                    alt={item.name}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
 
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-[#333333] mb-2 font-['Poppins']">
@@ -71,7 +73,6 @@ const Shop = () => {
               </div>
             ))}
           </div>
-
         </div>
       </section>
     </div>
