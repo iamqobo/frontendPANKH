@@ -16,7 +16,7 @@ const Testimonials = () => {
       name: "Rahul Kumar",
       role: "Disability Inclusion Beneficiary",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
+        "https://images.unsplash.com/photo-1729157661483-ed21901ed892?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWFuJTIwbWFufGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000",
       quote:
         "Through Pankho Ki Udan, I found employment and purpose. The Love Candle project changed my life completely.",
     },
@@ -25,7 +25,7 @@ const Testimonials = () => {
       name: "Anjali Patel",
       role: "Podcast Listener",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
+        "https://st4.depositphotos.com/16405760/23692/i/450/depositphotos_236929236-stock-photo-studio-portrait-beautiful-young-attractive.jpg",
       quote:
         "The Udan Podcast inspires me every week. These stories of empowerment and inclusion give me hope for a better world.",
     },
