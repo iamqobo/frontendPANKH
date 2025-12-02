@@ -21,7 +21,7 @@ const Header = () => {
             className="flex items-center hover:opacity-80 transition-opacity shrink-0"
           >
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <img src={logo1} alt="Logo" className="h-12 w-auto" />
+              <img src={logo1} alt="Logo" className="h-[40] w-[40]" />
               <div className="flex flex-col leading-tight">
                 <span
                   className="text-[#333333] text-base sm:text-lg md:text-xl font-bold tracking-tight"
