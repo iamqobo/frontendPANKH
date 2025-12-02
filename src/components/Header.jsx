@@ -10,7 +10,7 @@ const Header = () => {
   const isActive = (path) => location.pathname === path;
 
   // Purple Flower Logo SVG Component
-  const FlowerLogo = ()=>{
+  const FlowerLogo = ()=>(
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" zoomAndPan="magnify" viewBox="0 0 595.5 842.249979" preserveAspectRatio="xMidYMid meet" version="1.0" style={{ filter: 'brightness(0)' }}>
 <defs>
   <filter x="0%" y="0%" width="100%" height="100%" id="17b4526cc7">
@@ -57,7 +57,7 @@ const Header = () => {
   </g>
 </g>
 </svg>
-  };
+  );
 
   return (
     <header className="bg-white sticky top-0 z-50 border-b border-gray-100">
