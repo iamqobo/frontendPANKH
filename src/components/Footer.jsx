@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo1 from "../assets/logo1.png";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           {/* About Section */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <span className="text-[#0066CC] text-2xl font-bold">🌸</span>
+              <span className="text-[#0066CC] text-2xl font-bold"><img src={logo1} alt="Logo" className="h-[40] w-[40]" /></span>
               <span
                 className="text-white text-xl font-bold"
                 style={{ fontFamily: "Poppins, sans-serif" }}
